@@ -1,0 +1,17 @@
+{
+  "name": "magnetic-simulation-mvp",
+  "version": "0.1.0",
+  "description": "3D magnetic field visualization simulator for educational purposes",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx live-server --port=8080",
+    "build": "echo 'Static files ready for deployment'",
+    "deploy": "vercel --prod"
+  },
+  "keywords": ["three.js", "physics", "education", "magnetic-field", "simulation"],
+  "author": "Kevin Innovation",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
